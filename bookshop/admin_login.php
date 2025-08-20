@@ -7,7 +7,6 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true
     header('Location: php/admin/dashboard.php');
     exit();
 }
-
 $errors = []; // Changed from $error to $errors array
 
 if ($_POST) {
