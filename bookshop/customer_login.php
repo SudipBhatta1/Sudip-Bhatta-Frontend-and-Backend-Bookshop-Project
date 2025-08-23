@@ -8,7 +8,9 @@ if (isset($_SESSION['customer_id'])) {
     exit();
 }
 
+
 $errors = []; // Changed from $error to $errors array
+
 
 if ($_POST) {
     $email = trim($_POST['email']);
@@ -154,4 +156,5 @@ if ($_POST) {
         <?php endif; ?>
     </script>
 </body>
+
 </html>
