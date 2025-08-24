@@ -10,9 +10,11 @@ COLLATE utf8mb4_unicode_ci;
 -- Use the database
 USE bookshop;
 
+
 -- =============================================
 -- ADMIN TABLE (NEW - SIMPLE VERSION)
 -- =============================================
+
 
 -- Create admin table for simple login
 CREATE TABLE admins (
@@ -324,4 +326,5 @@ SELECT 'deleted_books' as table_name, COUNT(*) as record_count FROM deleted_book
 UNION ALL
 
 SELECT 'deleted_orders' as table_name, COUNT(*) as record_count FROM deleted_orders;
+
 
