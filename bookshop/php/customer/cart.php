@@ -111,7 +111,8 @@ foreach ($cart_items as $item) {
                         </tfoot>
                     </table>
                 </div>
-                
+
+            
                 <div style="margin-top: 20px;">
                     <a href="place_order.php" class="btn btn-customer">Place Order</a>
                     <a href="view_books.php" class="btn" style="background: #95a5a6; color: white; margin-left: 10px;">Continue Shopping</a>
@@ -122,4 +123,5 @@ foreach ($cart_items as $item) {
         </div>
     </div>
 </body>
+
 </html>
