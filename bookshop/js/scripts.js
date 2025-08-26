@@ -127,3 +127,4 @@ function togglePassword(fieldId) {
     // Toggles between 'password' and 'text' input types
     // Updates icon and tooltip accordingly
 }
+
