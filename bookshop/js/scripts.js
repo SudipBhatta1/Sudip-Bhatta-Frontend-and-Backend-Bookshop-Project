@@ -128,3 +128,4 @@ function togglePassword(fieldId) {
     // Updates icon and tooltip accordingly
 }
 
+
