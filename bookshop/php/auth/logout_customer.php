@@ -19,4 +19,5 @@ session_destroy();
 // Redirect to customer login
 header('Location: ../../customer_login.php');
 exit();
+
 ?>
