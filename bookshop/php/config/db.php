@@ -24,4 +24,5 @@ try {
     error_log("Database connection failed: " . $e->getMessage());
     die("Connection failed. Please check your database configuration.");
 }
+
 ?>
