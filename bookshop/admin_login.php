@@ -9,7 +9,6 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true
 }
 $errors = []; // Changed from $error to $errors array
 
-
 if ($_POST) {
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
@@ -162,4 +161,5 @@ if ($_POST) {
     </script>
 </body>
 </html>
+
 
